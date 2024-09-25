@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>servletExample</display-name>
+  <!-- <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+ 
+  <servlet>
+ <servlet-name>date</servlet-name>
+ <servlet-class>servletEx.Datedemo</servlet-class> 
+</servlet>
+<servlet-mapping>
+<servlet-name>date</servlet-name>
+<url-pattern>/date</url-pattern>
+</servlet-mapping>
+ -->
+ <welcome-file-list>
+    <welcome-file>home2.html</welcome-file>
+  </welcome-file-list>
+ 
+<servlet>
+ <servlet-name>register</servlet-name>
+ <servlet-class>servletex2.RegisterServlet</servlet-class> 
+</servlet>
+<servlet-mapping>
+<servlet-name>register</servlet-name>
+<url-pattern>/register</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>update</servlet-name>
+ <servlet-class>servletex2.Updateservlet</servlet-class> 
+</servlet>
+<servlet-mapping>
+<servlet-name>update</servlet-name>
+<url-pattern>/update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>select</servlet-name>
+ <servlet-class>servletex2.Selectservlet</servlet-class> 
+</servlet>
+<servlet-mapping>
+<servlet-name>select</servlet-name>
+<url-pattern>/select</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>display all</servlet-name>
+ <servlet-class>servletex2.Selectall</servlet-class> 
+</servlet>
+<servlet-mapping>
+<servlet-name>display all</servlet-name>
+<url-pattern>/all</url-pattern>
+</servlet-mapping>
+</web-app>
